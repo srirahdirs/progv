@@ -1,0 +1,42 @@
+.wrap {
+  overflow: hidden;
+  /*height: 250px;*/
+}
+.container{
+    width: 100%;
+}
+.header-panel {  
+  height: 95px !important;
+}
+.container-fluid main{
+    /*height: 250px !important;*/
+}
+/********************************************LOGIN PAGE **********************************************/
+#login-form{
+    width: 280px;
+}
+.login-form-text{
+    padding: 10px;
+    font-weight: bold;
+}
+.login-label{
+    margin-left: 50px;
+}
+#login-username{
+  margin-left: 3rem;
+  width: 92%;
+  width: calc(100% - 3rem);
+}
+#login-password{
+  margin-left: 3rem;
+  width: 92%;
+  width: calc(100% - 3rem);
+}
+.has-error .help-block {
+    text-align: left;
+    color: red !important;
+}
+/********************************************access profile **********************************************/
+.view_header{ width: 100%; overflow: hidden}
+.view_header h2{ width: 50%; float: left;}
+.view_header a { float: right; margin-top: 20px;  }
